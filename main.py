@@ -5,7 +5,7 @@ import numpy as np
 from helper import findFreq, updateTags
 from pymongo import MongoClient
 
-cluster = MongoClient("mongodb+srv://phogbt:abc12345abc@cluster0-amher.mongodb.net/test?retryWrites=true&w=majority")
+cluster = MongoClient("")
 db = cluster["cs121"]
 collection = db["invertedIndex"]
 
